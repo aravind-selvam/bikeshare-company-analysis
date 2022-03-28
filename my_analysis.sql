@@ -1,5 +1,8 @@
---ANALYSIS--
+--------------------------------------------------------------------------------------------------------------------------------------------
+--ANALYSIS ON POSTGRE SQL---
 
+
+--STEPS 
 --Total_count of annual and casual users--
 
 SELECT user_type, count(*)
@@ -57,24 +60,24 @@ ORDER BY visits desc LIMIT 10-- 'annual member's data' -- 'Result saved as CSV f
 
 ---- To count number of rides on each date ---
 
-SELECT date(started_at) as ymd, count(*) as count
-from new_tripdata where user_type = 'casual'
-group by ymd order by ymd; -- 'Result saved as CSV for viz'
+SELECT date(started_at) AS ymd, COUNT(*) AS COUNT
+FROM new_tripdata WHERE user_type = 'casual'
+GROUP BY ymd ORDER BY ymd; -- 'Result saved as CSV for viz'
 
 ---- To find which hour of the day most rides take place based on user_type---
 
-SELECT user_type,date_part('hour',started_at)as hour, count(*)as count
-from new_tripdata where user_type = 'member'
-group by hour,user_type order by hour;
+SELECT user_type,date_part('hour',started_at)AS hour, COUNT(*)AS COUNT
+FROM new_tripdata WHERE user_type = 'member'
+GROUP BY hour,user_type ORDER BY hour;
 
-SELECT user_type ,date_part('hour', started_at)as hour, count(*)as count 
-from new_tripdata where user_type ='casual'
-group by hour,user_type order by hour; -- 'Result saved as CSV for viz'
+SELECT user_type ,date_part('hour', started_at)AS hour, COUNT(*)AS COUNT 
+FROM new_tripdata WHERE user_type ='casual'
+GROUP BY hour,user_type ORDER BY hour; -- 'Result saved as CSV for viz'
 
 -----To find which bike type is most prefered by users----
 
-SELECT bike_type,user_type,count(*)as bike_count
-from new_tripdata group by user_type,bike_type
+SELECT bike_type,user_type,COUNT(*)AS bike_count
+FROM new_tripdata GROUP BY user_type,bike_type
 order by user_type;
 
 --- Find total usage based on month and year---
@@ -87,14 +90,4 @@ FROM new_tripdata
 GROUP BY month,year,user_type
 ORDER BY year; ---- 'Result saved as CSV for viz'
 
-
-
-
-
-
-
-
-
-
-
-
+----------------------------------------------------------------------------------------------------------------------
