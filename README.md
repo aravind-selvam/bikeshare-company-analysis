@@ -82,7 +82,7 @@ we can plan for campaigns in these places on saturday evenings.
 
 ### Dashboard created for the company cyclistic live monitoring of data in future
 ![Cyclistic](https://user-images.githubusercontent.com/97881558/160371959-3ced16f4-4015-4d62-aa84-60d4f1413419.png)
-Dashboard is uploaded to my Tableau public 
+Dashboard is uploaded to my [Tableau public](https://public.tableau.com/views/GoogleDataAnalyticsCapstoneProject_16484612248570/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Act
 My recommendations for the *Cyclistic Marketing Executive and *Lily Moreno are 
