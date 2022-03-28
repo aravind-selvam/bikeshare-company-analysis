@@ -1,3 +1,6 @@
+--- DATA CLEANING STEPS ON POSTGRE SQL ---
+
+
 drop table if exists full_tripdata;
 
 create table full_tripdata as (
@@ -27,7 +30,7 @@ GROUP BY
 	ride_id
 HAVING 
 	COUNT(ride_id) > 1;--209 ride_id had duplicate entries, 
-	--so we use SELECT DISTINCT to remove duplicates---
+--so we use SELECT DISTINCT to remove duplicates---
 
 SELECT DISTINCT member_casual  
 FROM full_tripdata;--Check for other entries
@@ -81,18 +84,6 @@ AND end_station_name IS NOT NULL)
 AND
 (ended_at-started_at) > (interval '1' minute);
 
-select * from new_tripdata limit 100---- Cleaned data
+select * from new_tripdata---- Cleaned data
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
