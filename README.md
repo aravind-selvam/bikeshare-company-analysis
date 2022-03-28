@@ -31,7 +31,7 @@ I have choosen Postgres SQL as my tool to clean the data
 * Renamed some columns for easy reading and understanding.
 * Created new column which had ride length duration 
 * Exculded outliers like trips with less than 1 min duration
-U can see my data cleaning and manupulation steps [here](https://github.com/aravind9722/Bikeshare_company/blob/main/data_clean)
+U can see my data cleaning and manupulation steps [here](https://github.com/aravind9722/Bikeshare_company/blob/main/data_clean.sql)
 ## Analyze
  I used Postgres SQL for Analyzing my data.
  I wanted to analyse the pattern between two users i.e Casual users and Annual members.
@@ -43,7 +43,7 @@ U can see my data cleaning and manupulation steps [here](https://github.com/arav
  * Prefered Bike model by each user type.
  * Top 10 crowded start station by Casual and Annual members.
  * Number of rides done on each day, month.
-U can check my analysis work [here](https://github.com/aravind9722/Bikeshare_company/blob/main/my_analysis)
+U can check my analysis work [here](https://github.com/aravind9722/Bikeshare_company/blob/main/my_analysis.sql)
 ## Share
 Tools used = Postgres SQL for analysis
 *Tableau* and *Excel* for chart visualization
