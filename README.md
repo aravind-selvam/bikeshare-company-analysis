@@ -1,7 +1,7 @@
 # Bikeshare_company
 This is the project from [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) this case study is to verify my learnings on google data analytics course
 ###  Background
-In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 6000 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
 
 One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
 
@@ -51,7 +51,7 @@ Tools used = Postgres SQL for analysis
 *Tableau* and *Excel* for chart visualization
 ### Total rides by each user type
 ![user_type](https://user-images.githubusercontent.com/97881558/160364660-77fd54af-9344-4855-a8a2-7df439df9403.png)
-with this we can see annual member share 59% of total rides, which is very clear that annual members take most rides, but still they contribute less revenue how? u will get answers with further slides,
+with this we can see Annual member share 59% of total rides, which is very clear that annual members take most rides, but still they contribute less revenue how? u will get answers with further slides,
 
 ### Total rides by Bike type
 ![biketype_ball](https://user-images.githubusercontent.com/97881558/160366268-a2af2654-e962-4094-bbd3-82d32df4189d.png)
@@ -68,7 +68,7 @@ Here July to October is where most rides were done which is summer season, peopl
 
 ### Ride Traffic based on each hour
 ![Ride_time](https://user-images.githubusercontent.com/97881558/160365673-1e7ee5ba-7fc9-456d-b179-fda15b446f68.png)
-So our business objective is to covert casual users to annual members, so we focus our analysis on casual users, Looks like casual users are crowded in evening time around 5pm-6PM , So we can plan marketing campaign during that time, but which have to choose the correct day of the week.
+So our business objective is to convert casual users to annual members, so we focus our analysis on casual users, Looks like casual users are crowded in evening time around 5pm-6PM , So we can plan marketing campaign during that time, but which have to choose the correct day of the week.
 
 ### Ride traffic based on each day
 ![Ride_Day](https://user-images.githubusercontent.com/97881558/160369104-39d10833-81f7-4f54-9536-f080088a12c5.png)
