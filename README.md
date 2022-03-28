@@ -32,7 +32,7 @@ I have choosen Postgres SQL as my tool to clean the data
 * Created new column which had ride length duration 
 * Exculded outliers like trips with less than 1 min duration
 
-U can see my data cleaning and manupulation steps [here](https://github.com/aravind9722/Bikeshare_company/blob/main/data_clean.sql)
+U can see my data cleaning and manipulation steps [link to SQL code](https://github.com/aravind9722/Bikeshare_company/blob/main/data_clean.sql)
 ## Analyze
  I used Postgres SQL for Analyzing my data.
  I wanted to analyse the pattern between two users i.e Casual users and Annual members.
@@ -45,7 +45,7 @@ U can see my data cleaning and manupulation steps [here](https://github.com/arav
  * Top 10 crowded start station by Casual and Annual members.
  * Number of rides done on each day, month.
 
-U can check my analysis work [here](https://github.com/aravind9722/Bikeshare_company/blob/main/my_analysis.sql)
+U can check my analysis work [Link to SQL code](https://github.com/aravind9722/Bikeshare_company/blob/main/my_analysis.sql)
 ## Share
 Tools used = Postgres SQL for analysis
 *Tableau* and *Excel* for chart visualization
@@ -80,9 +80,10 @@ We can see ride traffic is significantly more by both users (causal, annual memb
 Now we can see Top 10 stations from Streeter Dr & Grand Ave to Michigan Ave is most visited by casual users 
 we can plan for campaigns in these places on saturday evenings. 
 
-### Dashboard created for the company cyclistic live monitoring of data in future
+### Dashboard created for the company cyclistic 
 ![Cyclistic](https://user-images.githubusercontent.com/97881558/160371959-3ced16f4-4015-4d62-aa84-60d4f1413419.png)
 Dashboard is uploaded to my [Tableau public](https://public.tableau.com/views/GoogleDataAnalyticsCapstoneProject_16484612248570/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+Can be used by the company for live monitoring the data
 
 ## Act
 My recommendations for the *Cyclistic Marketing Executive and *Lily Moreno are 
